@@ -211,7 +211,9 @@ img{
   font-size: 14px;
   text-shadow: none;
   color: black;
-  margin: 40px;
+  margin-left:40px;
+  margin-right:40px;
+  margin-top: 35px;
 }
 
 
@@ -279,7 +281,7 @@ img{
   width:100%;
   opacity:0;
   transition:.6s ease;
-  background-color: #86ACC6;
+  background-color:#86ACC6;
 }
 
 
@@ -439,4 +441,33 @@ img{
 
 .ineed{
   width: 52%;
+}
+
+.bottomnote{
+  font-size: 11px;
+  margin: 0px;
+}
+
+.roles{
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  border: 3px solid white;
+
+}
+.roles li{
+  font-size: 11px;
+  text-shadow: none;
+  color: black;
+  text-align:left;
+
+
+}
+
+.prickly{
+  width:90%;
+  border: 3px solid pink;
+  border-radius: 10px;
 }
