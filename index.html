@@ -1,3 +1,4 @@
+<!--- ediitng trial play around with this one --->
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,65 +14,69 @@
 
     <nav>
       <ul class="navigation">
-        <a href="#prolink"><li>projects</li></a>
-        <a href="#contact"><li>contact</li></a>
-        <a href=""><li>resume</li></a>
+        <a href="index.html"><li><span class="title"> Bryanna Benicia </span></li></a>
+        <a href="#prolink"><li><img src="images/polygon1.png" alt="bloop"></li></a>
+        <a href="#contact"><li><img src="images/polygon2.png" alt="bloop"></li></a>
+        <a href="aboutme.html"><li><img src="images/polygon3.png" alt="bloop"></li></a>
+        <a href=""><li><img src="images/polygon4.png" alt="bloop"></li></a>
       </ul>
-        <p class="title"> Bryanna Benicia </p>
     </nav>
 
 
-    <header class="row">
+<section class="main_page">
+  <div class="row">
 
+      <div class="col">
+        <img src="images/berkanim.gif" alt="berk">
+      </div>
+
+
+
+    <div class="col">
+      <h1> Hello! </h1>
+      <p align="justify" class="introduction"> I'm <span class="bryanna"> Bryanna</span>: a current graduating senior studying Mechanical Engineering and Design Innovation at <span class="ucb"> UC Berkeley</span>, passionate about empathetic design and product design,
+        constantly striving to innovate and create.</p>
+        <p align align="center" class="introduction">Check out my projects!</p>
+        <a href="#prolink" class="button_mainpg">Recent</a>
+        <a href="#all" class="button_mainpg">All</a>
+
+
+  </div>
+</section>
       <!-- left column -->
-      <section class="col left-col">
-        <div class="top-container">
+
         <!-- picture or animiation or gif of projects-->
-          <img class="center-fit" src="images/berkanim.gif" alt="berk">
-        </div>
-      </section>
+
+
 
       <!-- right column -->
-      <section class="col right-col">
-        <div class="top-container">
-          <h1> Hello! </h1>
-          <span class="introduction"> I'm <span class="bryanna"> Bryanna</span>: a current graduating senior studying Mechanical Engineering and Design Innovation at <span class="ucb"> UC Berkeley</span>, passionate about empathetic design and product design,
-            constantly striving to innovate and create.</span>
 
-        </div>
-      </section>
-    </header>
+
+
+
+
 
       <main class= "container">
-        <!-- can be replaced with an emoji animation or button that clicks to next -->
-        <p class="transition"> ---- check out my projects below ---- </p>
-        <section>
-          <h2 class="projects">Recent Projects</h2>
 
-          <!-- project 1 spotlight -->
+        <section class="recent_projects">
+          <!-- project 1 spotlight ------------------>
             <div class="row">
               <div class="col">
-                <div class="container-s">
-                <!--
-                img picture -->
-                <div class="overlay">
                 <img class="theo" src="images/theohand.png" alt="theohandfn">
-                <div class="hover0">
-                  <div class="text0">THEO HAND </div>
-                  </div>
                 </div>
-                </div>
-              </div>
+
               <div class="col">
-                <!--
-                img video -->
                 <h3 id="prolink">Theo Hand</h3>
                 <h4>ME 193C - Upper Limb Prosthesis</h4>
-                <h5>Theohand is a prosthetic device that utilizes soft robotics to help our Project Partner Theo improve his mobility and way of life. Theo is a 3 year old boy born with only one-third of
+                <p align="justify">Theohand is a prosthetic device that utilizes soft robotics to help our Project Partner Theo improve his mobility and way of life. Theo is a 3 year old boy born with only one-third of
                     his right forearm. Because of Theo’s young age and lack of experience with prostheses, the user experience of the device was a huge priority. <br><br> The prosthetic functions by turning a knob that
                     tightens the prosthetic into a flexible grip.The device also has LEDs and a speaker that
-                    signaled different lights or sounds as haptic feedback to convey that an object was firmly grasped.  </h5>
-                <a href="https://drive.google.com/file/d/1Pe5Bxegp0qkL6NZKePmUXzSHwVFseoGP/view?usp=sharing">CLICK TO CHECK OUT THE PROJECT VIDEO!</a>
+                    signaled different lights or sounds as haptic feedback to convey that an object was firmly grasped.  </p>
+
+                      <a href="projects.html" class="button">project profile</a>
+                      <a href="https://drive.google.com/file/d/1Pe5Bxegp0qkL6NZKePmUXzSHwVFseoGP/view?usp=sharing" class="button">project video</a>
+
+
               </div>
             </div>
 
@@ -79,152 +84,203 @@
             <div class="row">
               <div class="col">
                 <!--img picture-->
-                <h3>Destroy the World in a Day Simulator</h3>
+                <h3 id="prodestroy">Destroy the World in a Day Simulator</h3>
                 <h4>New Media 190 - Critical Practices</h4>
-                <h5>Destroy the World in a Day simulator is an interactive game inspired by 80’s arcade games and choose your own adventure games.
+                <p align="justify">Destroy the World in a Day simulator is an interactive game inspired by 80’s arcade games and choose your own adventure games.
                   This game is focused on educating individuals about sustainability through the lens of everyday life decisions. <br><br>
                   Players go through a typical day making decisions about what to eat, how to dress, etc.
                   and see how their decisions immediately  impact the environment and the social , political , and economic entanglements of each repercussion.
-                  As each arcade buttons were pressed,  the color of the neopixel ring each time indicated the health bar of the planet. </h5>
+                  As each arcade buttons were pressed,  the color of the neopixel ring each time indicated the health bar of the planet. </p>
 
               </div>
               <div class="col">
                 <!--img video-->
-                <div class="overlay">
                 <img class="destroy" src="images/destroy.gif" alt="destroy">
-                <div class="hover02">
-                  <div class="text0">Destroy the World <br>In a Day <br> Simulator </div>
                   </div>
-                </div>
-                </div>
-
             </div>
+
+
+            <!-- project 3 spotlight -->
+              <div class="row">
+                <div class="col">
+                  <img class="cuby_stackup" src="images/cuby_stackup.png" alt="cuby_stackup">
+                  </div>
+
+                <div class="col">
+                  <!--
+                  img video -->
+                  <h3 id="procuby" >Finding Cuby</h3>
+                  <h4>ME 102B - Mechatronics</h4>
+                  <p align="justify">Finding Cuby is a robot cube that visually detects another cube
+                     based on color and autonomously flips towards it in order to attach.The cube has
+                     no external moving parts,but instead functions by using a simple mode of locomotion (pivoting),
+                     an inertial actuator (a flywheel and brake) and a bonding mechanism that enables it to attach
+                     itself to other Cubys (permanent magnets).The potential of the product expands on ideas
+                     of macroscopic self assembly and modular structures.   </p>
+                  <!-- <a href="https://drive.google.com/file/d/1Pe5Bxegp0qkL6NZKePmUXzSHwVFseoGP/view?usp=sharing">click to check out the project video</a> -->
+                </div>
+              </div>
+
+
+              <!-- project 4 spotlight -->
+                  <div class="row">
+                    <div class="col">
+                      <!--img picture-->
+                      <h3 id="protoxic">Toxic Tie</h3>
+                      <h4>New Media 290 - Critical Making</h4>
+                      <p align="justify">The Toxic Tie is a speculative design piece intended to make a statement
+                        on misogyny in the workplace. It recognizes when misogynistic words or phrases are spoken
+                        and reacts by folding up and tapping the wearer on the face to inform the wearer that they
+                         need to consider the impact of their words. Additionally, it rewards the wearer for saying
+                         something complimentary.<br><br>The accompanying <span class="website"> <a href="http://sonia9uppal.github.io/toxictie/">website</a></span> allows women to input misogynistic phrases
+                         that they have heard in the workplace to help train our tie to better react in these situations.
+                         By showing them a a bulletin of all of the crowdsourced phrases creates a sense of collective empathy. </p>
+                        <a href="https://youtu.be/m0uszqPfego"class="button">product video</a>
+
+
+                    </div>
+                    <div class="col">
+                      <!--img video-->
+                      <img class="destroy" src="images/Slice.png" alt="toxic">
+
+                      </div>
+                  </div>
+
+
+
 
         </section>
 
         <!-- projects that hover -->
-        <section>
-          <h2>Past   Projects</h2>
+        <section class="allprojects">
+          <!-- maybe another navigation here ??? -->
+          <div id="all">
+          </div>
           <div class="row no-gutters">
             <div class="col">
-              <div class="overlay">
-                <img class="walle" src="images/rewalle1.png" alt="Plant-E">
-              <div class="hover">
-                <div class="text">PLANT-E
-                <p class="des"> Plant-E is an internet of things product designed to be a self-care watering system that can collect data that can be monitored on an android app.
-                  The design was motivated by student’s experience with constantly killing their plants due to busy schedules. <br><br>
-                  This product followed a human centered design process focusing on student’s needs,and how students interact mostly on their phones through apps and twitter.
-                  Features include an interactive android app and a live twitter read of current plant updates and a Wall-e and cute aesthetic for marketability.
-                </p>
-                <ul class="roles">
-                  <li>Programmed using Arduino Uno to take sensing data and send it to the cloud to show on a mobile  app as well as to actuate a water valve and notify users of water levels</li>
-                  <li>Assembled and designed circuit </li>
-                  <li>Designed exterior aesthetic to resemble Wall-E robot by 3-D printing Walle’s iconic eyes and lazercut the body to hold the hardware inside </li>
-                </ul>
-                </div>
-
-
-
-
-
-
-                </div>
-              </div>
-
-              <div class="overlay">
-                <img class="wiikart" src="images/rewiikart1.png" alt="Wii-Kart">
-              <div class="hover2">
-                  <div class="text">WII-KART
-                  <p class="des">The Wii-Kart was an interdisciplinary project that synthesized visual programming with data acquisition and mechanical design.
-                    It uses the myRIO microprocessor as the controller by reading and processing accelerometer data. The myRIO VI then sends motion and light controls to both the Wii-Kart and the computer’s graphical user interface.
-                    Wii-Kart is a wireless, battery-powered vehicle which moves on four omni-wheels.<br><br>
-
-                    This product took inspiration from glowing LED balls, and aims to create a real life Mario Kart controlled in a similar way as with a wii remote.  </p>
-                    <ul class="roles">
-                      <li>Responsible for the computer’s graphical user interface in terms of design and communication with the myRIO, integrated
-                        shared network variable in order to solve multitasking implemented</li>
-                      <li>Responsible for a portion of LabVIEW architecture in terms of implemented a producer consumer loop for data
-                        acquisition of the accelerometer data</li>
-                      <li>Designed internal car structure by 3-D modeling motor hub and hardware base , implemented LED circuitry </li>
-                    </ul>
-                  </div>
+              <div class="containpic">
+                 <a href="projects.html"><img class="theo" src="images/theo.png" alt="theo"></a>
+                  <div class="middle">
+                    <div class="textname">
+                      Theo Hand
+                    </div>
                   </div>
               </div>
 
-            </div>
+                <div class="containpic">
+                  <a href="#prodestroy"> <img class="destroysolo" src="images/destroysolo.png" alt="destroysolo"></a>
+                    <div class="middle">
+                      <div class="textname">
+                          Destroy the World <br>in a Day <br> Simualtor
+                      </div>
+                      </div>
+                </div>
 
+                <div class="containpic">
+                  <img class="walle" src="images/walleedit.png" alt="Plant-E">
+                    <div class="middle">
+                      <div class="textname">
+                          Plant-E
+                      </div>
+                      </div>
+                </div>
+
+                <div class="containpic">
+                  <img class="skeletoids" src="images/skeletoids.GIF" alt="skeletoids">
+                    <div class="middle">
+                      <div class="textname">
+                          Skeletoids
+                      </div>
+                      </div>
+                </div>
+
+                <div class="containpic">
+                  <img class="boxy" src="images/box.png" alt="boxy">
+                    <div class="middle">
+                      <div class="textname">
+                          Personal<br>Projects
+                      </div>
+                      </div>
+                </div>
+
+                <div class="containpic">
+                    <img class="ineed" src="images/ineed.png" alt="ineed">
+                    <div class="middle">
+                      <div class="textname">
+                          I Need
+                      </div>
+                      </div>
+                </div>
+
+            </div>
             <div class="col">
-              <div class="overlay">
-                <img class="BI" src="images/rerobot1.png" alt="BI">
-                <div class="hover3">
-                    <div class="text">PEANUT ROBOTICS <br>
-                      x <br> BERKELEY INNOVATION <br>
-                    <p class="des">This product was in partner with Peanut Robotics, a startup company at SkyDeck. As a design consultant for Berkeley Innovation,
-                      industrial design concepts were created and full renderings of what a hotel cleaning robot would look to not only incorporate functionality , but also be approachable to guests.
-                      Due to nondisclosure agreements, I can not reveal any more information. Email me for more information on my design process.  </p></div>
-                    </div>
-                </div>
 
-              <div class="overlay">
-                <img class="coolfan" src="images/recoolfan1.png" alt="Cool fan">
-                <div class="hover4">
-                    <div class="text">COOL FAN
-                    <p class="des">Aimed to solve issues surrounding student’s complaints of lack of air conditioning in classrooms, cool fan is designed to provide a solution to issues encountered with existing alternatives such as hand-held fans and desk fans.<br><br>
-                      Cool fan is uses four bar mechanism with a dyad that aims to consistently point directly at the face of the user. This product is portable, attachable to different desks, adaptable to different fans, and quiet and non invasive.
-                      This product focused on a human-centered design process.  </p>
-                      <ul class="roles">
-                        <li>Implemented design methodology that began with user research among students need for fans, followed with ideation on
-                          what can be improved in existing fans considering user</li>
-                        <li>Designed a four bar mechanism plus dyad in order to sweep a small fan along a desk by using a graphical analysis of the 4
-                          bar mechanism and the dyad separately</li>
-                        <li>CAD components on solid works along with a animation of sweeping motion </li>
-                      </ul>
+              <div class="containpic">
+                  <a href="#procuby"><img class="cuby" src="images/cubyface2face.jpg" alt="cuby"></a>
+                  <div class="middle">
+                    <div class="textname">
+                        Finding Cuby
                     </div>
                     </div>
-                </div>
-            </div>
-            </div>
-
-        </section>
-
-        <section>
-          <div class="row no-gutters">
-
-            <div class="col">
-              <div class="overlay">
-                <img class="skeletoids" src="images/skeletoids.GIF" alt="skeletoids">
-                <div class="hover5">
-                    <div class="text">SKELETOIDS(LBNL)
-                    <p class="des"> As visual thinkers, molecular models are especially useful as educational tools in introducing the fundamental backbone and building blocks that ultimately construct complex molecular structure.
-                      This project aims to present an accurate translation of the hierarchal self assembly of cis-structured peptoid nanosheet and helix. <br><br>
-                      The models are built to self-assemble, which aims to illustrate and mimic self-assembly in nature.
-                       These models will provide more opportunities for interaction and exploration, which helps engage students and users.
-                     Individual Research Project done at Larewence Berkeley National Labortory at the Molecular Foundary. </p>
-                     <ul class="roles">
-                       <li>Designed and built four accurate macroscopic models of cis-structured peptoids for hierarchal self assembly</li>
-                       <li>Design process entailed modeling on CAD software, creating unique key slot joints , 3-D printing, and testing</li>
-                     </ul>
-                   </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-              <div class="overlay">
-                <img class="ineed" src="images/ineed.png" alt="ineed">
-                <div class="hover6">
-                    <div class="text">I NEED
-                    <p class="des">This product aims to create a platform for people to voice their needs and address the specific needs the UC Berkeley student body.
-                      Inspired by Candy Chang’s “I Wish this Was”, which gave the public of post-Katrina New Orleans ability to voice their opinion about how how they wished their city to be rebuilt.
-                      This product give people the ability to cast a symbolic vote as a litmus test of what was really needed among the UC Berkeley student body and foster a sense of collective empathy.
-                       </p>
-                       <ul class="roles">
-                         <li>Designed and modeled enclosure on Fusion 360 and lasercut on plywood and acrylic</li>
-                       </ul>
-                     </div>
-                    </div>
-                </div>
               </div>
+
+              <div class="containpic">
+                  <a href="#protoxic"><img class="toxic" src="images/toxic.JPG" alt="toxic"></a>
+                  <div class="middle">
+                    <div class="textname">
+                        Toxic Tie
+                    </div>
+                    </div>
+              </div>
+
+              <div class="containpic">
+                  <img class="BI" src="images/peanutedit.png" alt="BI">
+                  <div class="middle">
+                    <div class="textname">
+                        Peanut Robotics
+                    </div>
+                    </div>
+              </div>
+
+              <div class="containpic">
+                  <img class="bees" src="images/burtsbees.png" alt="bees">
+                  <div class="middle">
+                    <div class="textname">
+                        Burt's Bees
+                    </div>
+                    </div>
+              </div>
+
+              <div class="containpic">
+                  <img class="wiikart" src="images/wiikartedit.png" alt="Wii-Kart">
+                  <div class="middle">
+                    <div class="textname">
+                        Wii Kart
+                    </div>
+                    </div>
+              </div>
+
+              <div class="containpic">
+                  <img class="coolfan" src="images/coolfanedit.png" alt="Cool fan">
+                  <div class="middle">
+                    <div class="textname">
+                        Cool Fan
+                    </div>
+                    </div>
+              </div>
+
+              <div class="containpic">
+                  <img class="okgoogle" src="images/okgoogle.jpg" alt="okgoogle">
+                  <div class="middle">
+                    <div class="textname">
+                       Ok , Google <br>Tell me the Truth
+                    </div>
+                    </div>
+              </div>
+
+            </div>
+
+
           </div>
 
         </section>
@@ -250,23 +306,18 @@
             </div>
             </div>
         </section>
-      --> 
+      -->
 
       </main>
       <!-- before footer I want there to be a main button that goes to home-->
       <footer>
-        <div class="container">
-          <p id="contact"> Email me at <br> <span class="email">bbenicia@berkeley.edu</span><br> or find me on </p>
-          <div class="social-media-container">
-            <ul>
 
-              <a href="https://www.instagram.com/brbbenicia/"><li><img src="images/insta.png" alt="instagram"></li></a>
-              <a href="https://www.linkedin.com/in/bryanna-b-1474b9ba/"><li><img src="images/linkedin.png" alt="linked in"></li></a>
-              <a href="https://www.youtube.com/channel/UCkoRgpNRJf8Np_9_3nj8V3w"><li><img src="images/youtube.png" alt="youtube"></li></a>
-            </ul>
-          </div>
+          <p id="contact"> Email me at <br> <span class="email">bbenicia@berkeley.edu</span><br> or find me on <br> 
+                  <a href="https://www.instagram.com/brbbenicia/"><img src="images/insta.png" alt="instagram"></a>
+                  <a href="https://www.youtube.com/channel/UCkoRgpNRJf8Np_9_3nj8V3w"><img src="images/youtube.png" alt="youtube"></a>
+
+            </p>
           <p class="bottomnote"> --This website was designed and coded by myself, Bryanna Benicia, including all art and animations -- </p>
-        </div>
       </footer>
 
 
