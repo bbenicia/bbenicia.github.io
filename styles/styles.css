@@ -181,6 +181,11 @@ footer a{
   margin: 4px;
 }
 
+
+.main_page .col{
+  margin: auto;
+}
+
 .email{
   font-size: 16px;
   font-style: italic;
