@@ -13,20 +13,12 @@
       <nav>
         <ul class="navigation">
           <a href="index.html"><li><span class="title"> Bryanna Benicia </span></li></a>
-          <a href="#prolink"><li><img src="images/polygon1.png" alt="bloop"></li></a>
-          <a href="#contact"><li><img src="images/polygon2.png" alt="bloop"></li></a>
-          <a href=""><li><img src="images/polygon3.png" alt="bloop"></li></a>
-          <a href=""><li><img src="images/polygon4.png" alt="bloop"></li></a>
         </ul>
       </nav>
 
       <div class="project_name">
           <h6>Plant-E</h6> <br>
-          <h8>hyper-personal prosethetic </h8> <br>
-          <p> Press
-          <li><span class="jacobs"> <a href="http://jacobsinstitute.berkeley.edu/student-project/theohand/">Jacob's Project Spotlight</a> </span></li>
-          <li><span class="ways"><a href="https://medium.com/@CalAdmissions/5-ways-uc-berkeley-students-lead-in-world-changing-research-40380f9faa00">5 ways UCB students lead</a> </span></li>
-          </p>
+          <h8> Autonmous Watering Plant System</h8> <br>
 
       </div>
 
@@ -36,49 +28,31 @@
 
 
           <h7>Introduction</h7>
-          <p>Theohand is a prosthetic device that utilizes soft robotics
-            to help our Project Partner Theo improve his mobility and way of life.
-            Theo is a 3 year old boy born with a birth defect called Amelia.
-             In Theo’s case, he was born with only one-third of his right forearm.
-              We aimed to <span class="importantwords">create an intuitive device</span> that enabled him to do his
-              favorite hobbies, such as bike riding and drawing,much more easily.
-              Because of Theo’s young age and lack of experience with prostheses,
-               <span class="importantwords">the user experience of the device was a huge priority.</span>
-                With the Theohand, we explore <span class="importantwords">the intersection of cutting edge
-                prosthesis technology with human-centered design,</span> creating a device
-                that provides greater mobility but also enjoyment in Theo’s life.</p>
+          <p> </p>
               <!-- photo -->
             <div class="introduction">
-                <img src="images/theohand_display.jpg" alt="theoproj1">
+
+                <img src="images/walleedit.png" alt="theoproj1">
             </div>
 
 
 
             <h7> My Role </h7>
-            <p>In a team of four,consisting of all mechanical engineering students,
-               we worked on the entire design process to create a fully functional
-                final prototype. I worked on needfinding, ideation and prototyping,
-                 user testing,mechanical and visual design.I implemented human centered
-                  design methodology that began with extensive one-on-one user interviews
-                  throughout the product’s iterations. I designed , modeled , and manufactured
-                  soft robotic fingers that aided to conform to a variety of objects
-                   and reduce stiffness at the initial turn for a child and designed
-                   the arm housing for comfort and minimize weight and bulk.  </p>
+            <p>My final project for Electronics for the Internet of Things, a class focused on IoT devices.
+            I designed and prototyped a lovable and commercial autonomous watering and care plant system aimed
+             for busy college students. I programmed this IoT device using Arduino Uno to take sensing data and
+             send it to the cloud to show on a mobile  app as well as to actuate a water valve and notify users
+             of water levels. In addition I created a Plant-E twitter that tweets updates as Plant-E.</p>
 
             <div class="Problem">
               <h7> The Problem </h7>
               <div class="row">
                 <div class="col">
-                  <img class="theoproj" src="images/theohand_mold.jpg" alt="theoproj2">
-                </div>
-                <div class="col">
-                  <p>Design and manufacture a prosthetic for Theo, a 3-year-old boy born
-                     with a ⅓ of his forearm. The prosthetic should seek to improve Theo’s
-                     life and allow him to achieve tasks that would otherwise be difficult
-                     for him. To create an authentic prosthetic, we would have to work closely
-                      with our project partners through extensive user interviews and three
-                      user testing meetings. The prosthetic should also be able to pass a series
-                      of dexterity tasks and include electronic and mechanical components.</p>
+                  <p> College students love to buy plants and more so low maintence plants.
+                    They provide comfort and bring more life to their new homes away from home.
+                    Although students buy plants, they always end up killing their plants.
+                    College students are extremely busy and forget to water or care for their plants
+                    even low maintence plants such as succulents.</p>
                 </div>
 
               </div>
@@ -86,199 +60,38 @@
 
 
              <h7> Research </h7>
-             <p>In order to design an authentic product that truly reflected Theo’s needs
-               as a child and first-time prosthesis user, the user experience was a huge
-               priority and guided our major design decisions. Theo’s young age, being
-               3 years old, provided a challenge for us in determining our needfinding and
-               user interviews. We interviewed Theo’s father as someone who knows Theo and
-               has his best interests first. Our goals for our user interviews were to
-               understand Theo’s challenges with everyday tasks, grasp a sense of his
-               personality including likes and hobbies, and family values. </p>
+             <p>I created a facebook post on my college's page to gage how many students related to this problem.
+             The results were overwhelming. It became a quickly trending topic with 161 comments,92 likes, and 2 shares.
+           Students found it very humorous for how relatable it was that eveyone had dead plants.I talked to a few students
+           and they loved the idea of an autonmous watering system and the design.</p>
 
                <!-- photo -->
-               <p>In addition to user interviews, we conducted secondary research on existing
-                  prosthesis technology. Some products include the TBM hand, a child prosthetic
-                  hand that focus on making the fingers flex inwardly independently of each
-                  other, iron man hand, a child prosthetic focus on creating a playful
-                  interactive hand , and open source 3D printed prosthetic arms. </p>
 
-               <!-- posible photo -->
+            <h7> How it Works </h7>
 
+            <img class="theoproj" src="images/flow.png" alt="theoproj4">
+            <p>Sensing data is gathered, send to the cloud, gathered through thingspeak,and broadcasted on twitter and android app</p>
           <div class="key_insights">
-            <h8> Key Insights </h8>
-            <li>Bionic aesthetic ( focus on what’s there rather than what's not there)</li>
-            <li>Be intuitive for a child to get used to a prosthetic when older move to
-               more advanced prosthetic with emgs. </li>
-            <li>Safely ride a bike </li>
-            <li>Dress independently</li>
-            <li>Be comfortable </li>
-            <li>Grip items such as markers </li>
-          </div>
+            <h8> IoT Elements </h8>
+            <br>
+          Sensing(Input)
+                <li> Temperature and Humidity Sensor (DHT11)</li>
+                <li> Laser Ranging Sensor(VL53L0X)- to monitor water levels</li>
+                <li> Soil Moisture Sensor Module</li>
 
+            Actuation
+              <li> Submersible Water Pump</li>
 
-        <div class="ideation">
-          <h7>Ideation</h7>
-          <div class="row">
-            <div class="col">
-              <img class="theoproj" src="images/ideation1.png" alt="theoproj4">
+            Computing
+            <li> As the sensor monitors the plant's moisture and humidity,
+              and water level status,data is gathered and simultaneously graphed against time</li>
 
-            </div>
-
-            <div class="col">
-              <img class="theoproj" src="images/ideation2.png" alt="theoproj5">
-
-            </div>
-
-            <div class="col">
-              <img class="theoproj" src="images/ideation3.jpg" alt="theoproj6">
-
-            </div>
-            </div>
-
-            <div class="number_list">
-              <div class="row">
-                <div class="col">
-                  (1)
-                </div>
-                <div class="col">
-                  (2)
-                </div>
-                <div class="col">
-                  (3)
-                </div>
-            </div>
-            </div>
-
-          <!--photos - mind map and different design iterations -->
-          <p>(1) Mind map based on major needs/key insights from our interview and explored
-           each on solutions and further explorations while maintaining an empathetic
-          outlook to our ideas.</p>
-
-          <!-- photo -->
-          <p>(2) We then individually sketched out ideas for prosthetics taking inspiration
-             from our secondary research,detailing the ideal mechanism  whilst addressing
-             the major needs of Theo.</p>
-          <!-- photo -->
-
-          <p>(3) Combined ideas then agreed on a design we wanted to move forward with based
-            on a PUGH CHART?We functionality such as grasp strength and robustness as well
-             as look and feel. </p>
-        </div>
-
-
-
-      <div class="design_overview">
-        <h7> Our Solution/ Design Overview </h7>
-        <div class="row">
-          <div class="col">
-            <li>Soft robotic fingers</li>
-            <li>  Turning knob </li>
-            <li>  Locking ratchet </li>
-            <li>  Velcro straps</li>
-            <li>  Stationary thumb </li>
-            <li>  Attaches to bicep and forearm </li>
-            <li>  Release switch </li>
-            <li>  Grasp feedback with fsr led feedback </li>
-            <li>  Bionic aesthetic</li>
-          </div>
-
-          <div class="col">
-            <img class="theoproj" src="images/theohand_overview.png" alt="theoproj3">
-          </div>
-
-        </div>
-      </div>
-
-
-      <div class="prototyping">
-      <h7> Prototyping and Iteration </h7>
-      <p>The focus of our product was to create a design that was easy
-         and simple for  Theo and any other younger child to use. This
-         would serve as an introductory prosthetic and something for him
-          to adapt to. Our three meetings with Theo influenced our iterations. </p>
-
-        <h8> Meeting 1 </h8>
-        <div class="row">
-          <div class="col">
-            <img class="meeting1" src="images/meeting1a.png" alt="theoproj3">
-          </div>
-
-
-            <div class="col">
-
-            <img src="images/meeting1b.png" alt="theoproj3">
-
-
+              Communication
+              <li> Thingspeak , Virtuino(android app),Twitter</li>
+              <li> Monitor live data on app , get updates on twitter</li>
 
           </div>
 
-        </div>
-
-
-          <p>During our first meeting with Theo, our main goals were for Theo to
-          experience our main mechanism, the knob mechanism, and to see the socket
-          fitting for Theo and gage his arm size. This was Theo’s first attempt
-           and found it difficult at first but was able to adapt and learn quickly
-           the turning mechanism. An improvement we made was to create a star knob
-           so it would be easier for Theo fingers to hold. As for fit, although
-            we had an arm casting, Theo proved to be a lot smaller, so we downsized
-             our socket by a lot. </p>
-
-          <h8> Meeting 2 </h8>
-          <div class="row">
-               <div class="col">
-                  <img class="meeting1b" src="images/meeting2a.png" alt="theoproj3">
-               </div>
-
-               <div class="col">
-                  <img class="theoproj" src="images/meeting2b.png" alt="theoproj3">
-               </div>
-          </div>
-
-          <p>For our second meeting, we had a functional prototype for Theo to try.
-             Our main goals were to see fit and comfort, his response to the turn
-             and release mechanism, and whether he could grasp an object. Theo was
-             not able to grasp smaller items such as markers but could grasp larger
-             objects. To address this for our next iterations, we made the tendon
-             system more taught as well as an added plastic dip to fingers, palm
-             and thumb for more friction. Theo was able to pick up on moving very
-             quickly and it was easy for him to do full turns. He enjoyed playing
-             with the star knob. This is attributed to the device feel more
-             like a toy. Kids are usually drawn to a simple mechanism such as
-             turning and toys exist on the market specifically targeting these
-             mechanisms already. However, he still doesn’t turn the knob the
-             full way to where there is a full grasp but rather turns and then
-             releases. Our next iteration for meeting 3 would integrate
-             electronics, an FSR and LED feedback that signifies a full
-             grasp with and this may help with these processes.</p>
-
-      <h8> Meeting 3 </h8>
-      <div class="row">
-        <div class="col">
-          <img class="theoproj" src="images/meeting3a.png" alt="theoproj3">
-        </div>
-
-        <div class="col">
-          <img class="theoproj" src="images/meeting3b.png" alt="theoproj3">
-        </div>
-      </div>
-
-          <p>The final iteration for Theo to try on was during Jacob’s showcase.
-             In this iteration, we had implemented the electronics and wanted
-             to see his response to the prosthetic in terms of ease of use of
-             mechanism, functionality, comfort, and inclusion of electronics.
-             Overall, Theo appeared to really like the party mode and the simplicity of pressing
-             a simple button to actuate it. The Led party mode, the star knob mechanism,
-             and Baymax aesthetic emphasized the toy-like prosthetic suitable for a young
-             child. We wanted this to be an arm that would be cool to look at and play with.
-             Further improvements include fixing bulkiness, ensuring a more secure fit,
-             and a better fsr placement. </p>
-      </div>
-
-<!--
-           <h7> Reflections </h7>
-                <p>pargraph about reflections//summary of key successes and future improvements</p>
-                <img class="theoproj" src="images/theo_group.jpg" alt="theoproj3"> -->
 
       </section>
 
