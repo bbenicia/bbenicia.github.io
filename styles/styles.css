@@ -407,6 +407,11 @@ img{
   letter-spacing:1.5px;
 }
 
+.textnameunder{
+  color: black;
+  font-size: 18px;
+  letter-spacing:1.5px;
+}
 
 .recent_projects .col{
   margin: auto;
