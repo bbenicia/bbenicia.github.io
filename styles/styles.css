@@ -31,7 +31,6 @@ body{
   margin: 0 12px;
 }
 
-
 .navigation{
   text-align: right;
   max-width: 95%;
@@ -569,4 +568,25 @@ h8{
 .meeting1b {
   max-height: 220px;
   margin-left: 80px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.press li {
+  display:inline;
+}
+
+
+h9{
+  font-size: 34px;
+  font-style: italic;
+  line-height: 1.2;
+
+}
+
+.navigation img {
+  max-height: 70px;
 }
