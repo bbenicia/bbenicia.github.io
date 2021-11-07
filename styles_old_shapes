@@ -7,43 +7,37 @@ body{
   font-family: futura ;
 }
 
-nav{
-  margin:0;
+.title{
+  margin-right: 750px;
+  font-size: 18px;
+
 }
 
-.navigation{
-  padding:0;
-  display: flex;
-  max-width: 95%;
-  margin: 43px;
-  margin-bottom: 70px;
+.title a{
+    text-decoration: none;
 }
 
-.navigation li{
-  display: inline-block;
-  list-style-type: none;
-}
-
-.navigation li a:hover {
+.navigation a:hover{
   color: #8BCBC3;
 }
 
-.navigation li a {
+.navigation a {
   color: black;
   text-decoration: none;
-  display: block;
 }
 
-.navigation li:first-child{
-  margin-right: auto;
+.navigation li {
+  display:inline-block;
+  margin: 0 12px;
 }
 
-.navigation li img{
-  max-height: 65px;
-  margin-left: 50px;
+.navigation{
+  text-align: right;
+  max-width: 95%;
+  margin: 43px;
+  margin-right: 80px;
+  margin-bottom: 70px;
 }
-
-
 
 
 
@@ -591,4 +585,9 @@ h9{
   font-style: italic;
   line-height: 1.2;
 
+}
+
+.navigation img {
+  max-height: 65px;
+  float: left;
 }

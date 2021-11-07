@@ -1,4 +1,5 @@
-<!--- ediitng trial play around with this one --->
+<!--- ediitng trial play around with this one
+old index before edi made me redbrand , inlcudes the shapes era--->
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,7 +14,6 @@
   <body>
 
     <nav>
-
       <ul class="navigation">
         <!--
         <a href="index.html"><li><span class="title"> Bryanna Benicia </span></li></a>
@@ -21,10 +21,7 @@
         <a href="#prolink"><li><img src="images/polygon1.png" alt="bloop"></li></a>
         <a href="#contact"><li><img src="images/polygon2.png" alt="bloop"></li></a>
         <a href="aboutme.html"><li><img src="images/polygon3.png" alt="bloop"></li></a> -->
-        <li><a href="index.html"><img src="images/bb_logo.png" alt="bloop"></a></li>
-        <li><a href="aboutme.html"><li><span class="title"> About Me </span></a></li>
-
-
+        <a href="aboutme.html"><li><img src="images/polygon4.png" alt="bloop"></li></a>
 
       </ul>
     </nav>
