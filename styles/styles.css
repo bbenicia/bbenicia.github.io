@@ -25,7 +25,7 @@ nav{
 }
 
 .navigation li a:hover {
-  color: #8BCBC3;
+  color: #2E29FF;
 }
 
 .navigation li a {
@@ -66,7 +66,7 @@ h1{
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-  color:pink;
+  color:#F2B8E8;
 }
 
 .introduction{
@@ -91,7 +91,7 @@ h1{
   width:110px;
   height:43px;
   border-radius: 30px;
-  border: 3px solid #98DFD7 ;
+  border: 3px solid #ABEFD9 ;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
@@ -106,12 +106,12 @@ h1{
 }
 
 .button_mainpg:hover{
-  background-color:  #98DFD7;
+  background-color:  #ABEFD9;
 }
 
 .button{
   border-radius: 30px;
-  border: 3px solid #98DFD7;
+  border: 3px solid #ABEFD9;
   text-align: center;
   text-decoration: none;
   font-size: 12px;
@@ -128,16 +128,16 @@ h1{
 }
 
 .button:hover{
-  background-color:  #98DFD7;
+  background-color:  #ABEFD9;
 }
 
 .website a{
-  color:#A092D9;
+  color:#F2B8E8;
   text-decoration: none;
 }
 
 .website a:hover{
-  color:#7361BE;
+  color:#FFC06C;
   text-decoration: none;
 }
 
@@ -447,7 +447,7 @@ img{
 h6{
   font-size: 34px;
   margin: auto;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 68% , #98DFD7 68%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 68% , #94E0C5 68%);
   display: inline;
 }
 
@@ -475,18 +475,18 @@ h6{
    }
 
 .jacobs a{
-    color: #6DCEED;
+    color: #94E0C5;
   }
 
 .jacobs a:hover{
-     color: #5CB5D1;
+     color: #92FF95;
   }
 .ways a{
-  color: #6AC8A6;
+  color: #F2B8E8;
 }
 
 .ways a:hover{
-  color: #57A689;
+  color: #92FF95;
 }
 
 
@@ -527,7 +527,7 @@ h8{
 }
 
 .importantwords{
-  color:#8BCBC3;
+  color:#94E0C5;
 }
 
 .design_process img{
@@ -540,7 +540,7 @@ h8{
 }
 
 .key_insights{
-  background-color: rgba(152, 223, 215, 0.35);
+  background-color: rgba(171, 239, 217,0.3);
   margin: 22px;
   padding: 22px;
 }
