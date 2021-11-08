@@ -14,14 +14,16 @@ nav{
 .navigation{
   padding:0;
   display: flex;
-  max-width: 95%;
+  max-width: 90%;
   margin: 43px;
   margin-bottom: 70px;
 }
 
 .navigation li{
-  display: inline-block;
+  display: inline-flex;
   list-style-type: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigation li a:hover {
@@ -40,19 +42,9 @@ nav{
 
 .navigation li img{
   max-height: 65px;
-  margin-left: 50px;
 }
 
-
-
-
-
-
-
-
-
 .main_page{
-  max-width: 90%;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -198,7 +190,9 @@ footer a{
 
 
 .main_page .col{
+  text-align: center;
   margin: auto;
+  min-width: 400px;
 }
 
 .email{
@@ -209,11 +203,23 @@ footer a{
 
 .recent_projects .col{
   text-align: center;
+  margin: auto;
+  min-width: 400px;
 }
 
+.design_process .col{
+  text-align: center;
+  margin: auto;
+  min-width: 400px;
+}
+
+.prototyping img{
+  text-align: center;
+  margin: auto;
+  min-width: 400px;
+}
 
 .allprojects img{
-  width: 555px;
   object-fit: cover;
   padding: 18px;
 
@@ -418,10 +424,6 @@ img{
   letter-spacing:1.5px;
 }
 
-.recent_projects .col{
-  margin: auto;
-}
-
 .recent_projects p{
   line-height: 24px;
   font-size: 14px;
@@ -431,17 +433,6 @@ img{
 .recent_projects .row{
   margin-bottom: 65px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 h6{
@@ -503,7 +494,7 @@ h8{
 
 .design_process {
   font-size: 13px;
-  max-width: 50%;
+  max-width: 90%;
   line-height: 24px;
   margin: auto;
 }
@@ -551,15 +542,20 @@ h8{
 }
 
 .ideation img{
-  max-height: 210px;
+  max-height: 250px;
+  min-width: 250px;
 }
 
 .number_list{
   text-align: center;
 }
 
-.design_overview .col{
+.design_overview col{
   margin: auto;
+}
+
+.design_overview .list{
+  text-align: left;
 }
 
 .design_overview img{
@@ -567,13 +563,10 @@ h8{
 }
 
 .design_overview li{
-  padding-left: 42px;
   padding-top: 10px;
 }
 
 .meeting1b {
-  max-height: 220px;
-  margin-left: 80px;
 }
 
 
@@ -581,14 +574,26 @@ ul {
   list-style-type: none;
 }
 
+.press {
+  padding: 15px;
+}
+
 .press li {
   display:inline;
 }
 
 
-h9{
+h9 {
   font-size: 34px;
   font-style: italic;
   line-height: 1.2;
+}
 
+@media screen and (max-width: 958px) {
+  .reorder {
+    order: 1;
+  }
+  .navigation li img{
+    max-height: 50px;
+  }
 }
