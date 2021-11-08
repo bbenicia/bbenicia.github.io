@@ -592,3 +592,9 @@ h9{
   line-height: 1.2;
 
 }
+
+
+.about_me .col{
+  margin: auto;
+  text-align: center;
+}
