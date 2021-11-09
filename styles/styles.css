@@ -24,10 +24,13 @@ nav{
   list-style-type: none;
   align-items: center;
   justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: lighter;
 }
 
 .navigation li a:hover {
-  color: #2E29FF;
+  color: #ABEFD9;
 }
 
 .navigation li a {
@@ -103,10 +106,11 @@ h1{
 
 .button{
   border-radius: 30px;
-  border: 3px solid #ABEFD9;
+  border: 4px solid #ABEFD9;
+  width: 120px;
   text-align: center;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
   color:black;
   display: inline-block;
   padding: 9px 24px;
@@ -265,152 +269,7 @@ img{
   position: relative;
 }
 
-.theo img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
 
-.destroysolo img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.walle img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.skeletoids img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.boxy img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.ineed img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.cuby img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.toxic img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.BI img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.bees img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.wiikart img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.coolfan img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-.okgoogle img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility:hidden;
-}
-
-
-
-.middle{
-  transition: .5s ease;
-  opacity:0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%);
-  text-align: center;
-}
-
-.containpic:hover .theo{
-  opacity: 0.4;
-}
-
-.containpic:hover .destroysolo{
-  opacity: 0.4;
-}
-
-.containpic:hover .walle{
-  opacity: 0.4;
-}
-
-.containpic:hover .skeletoids{
-  opacity: 0.4;
-}
-
-.containpic:hover .boxy{
-  opacity: 0.4;
-}
-
-.containpic:hover .ineed{
-  opacity: 0.4;
-}
-
-.containpic:hover .cuby{
-  opacity: 0.4;
-}
-
-.containpic:hover .toxic{
-  opacity: 0.4;
-}
-
-.containpic:hover .BI{
-  opacity: 0.4;
-}
-
-.containpic:hover .bees{
-  opacity: 0.4;
-}
-
-.containpic:hover .wiikart{
-  opacity: 0.4;
-}
-
-.containpic:hover .coolfan{
-  opacity: 0.4;
-}
-
-.containpic:hover .okgoogle{
-  opacity: 0.4;
-}
-
-.containpic:hover .middle{
-  opacity: 1;
-}
 
 .textname{
   color: black;
@@ -602,3 +461,53 @@ h9 {
   margin: auto;
   text-align: center;
 }
+
+
+
+.allprojects .row{
+margin-left: 130px;
+}
+
+
+.column img {
+    width:  450px;
+    height: 450px;
+    object-fit:cover;
+    display:inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+
+.content {
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.content:hover .overlay {
+  opacity: .75;
+}
+
+.pictext {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
