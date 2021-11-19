@@ -591,3 +591,18 @@ h9{
   max-height: 65px;
   float: left;
 }
+
+//(2 row images)//
+
+.column img {
+    width:  450px;
+    height: 450px;
+    object-fit:cover;
+    display:inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.allprojects .row{
+margin-left: 130px;
+}

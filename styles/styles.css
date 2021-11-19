@@ -5,6 +5,7 @@ html {
 body{
   background-color: white;
   font-family: 'Roboto', sans-serif;
+
 }
 
 nav{
@@ -16,7 +17,7 @@ nav{
   display: flex;
   max-width: 90%;
   margin: 43px;
-  margin-bottom: 70px;
+
 }
 
 .navigation li{
@@ -55,19 +56,28 @@ nav{
 
 
 h1{
-  font-size: 33px;
+  font-size: 36px;
   letter-spacing: 4px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
   color:#F2B8E8;
+
 }
 
 .introduction{
-  font-size: 21px;
+  font-size: 18px;
   margin-bottom: 15px;
   text-align: center;
+  line-height: 1.5;
+}
+
+.designer{
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0px;
+
 }
 
 .bryanna{
@@ -138,19 +148,42 @@ h1{
 }
 
 
-
-
-h3{
-  font-size: 30px;
+.ptitle {
+  font-size: 32px;
   margin: auto;
-  display: inline;
+  text-align: left;
+
+
 }
 
-h4{
-  font-size: 14px;
+.pdescriptor {
+  font-size: 20px;
   margin: auto;
   margin-top: 6px;
   margin-bottom: 15px;
+  text-align: left;
+
+}
+
+.block {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+
+.more_projects a:hover{
+  color: #ABEFD9;
+}
+
+.more_projects  a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 100px;
+  letter-spacing: 6px;
 }
 
 
@@ -177,9 +210,9 @@ h4{
 }
 
 footer{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 40px;
+margin: 43px;
+padding-bottom: 43px;
+text-align: center;
 }
 
 footer p{
@@ -188,9 +221,27 @@ footer p{
     padding-top: 20px;
 }
 
-footer a{
-  margin: 4px;
+
+footer li{
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: lighter;
 }
+
+footer li a:hover {
+  color: #ABEFD9;
+}
+
+footer li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
 
 
 .main_page .col{
@@ -283,11 +334,7 @@ img{
   letter-spacing:1.5px;
 }
 
-.recent_projects p{
-  line-height: 24px;
-  font-size: 14px;
 
-}
 
 .recent_projects .row{
   margin-bottom: 65px;
@@ -465,13 +512,14 @@ h9 {
 
 
 .allprojects .row{
-margin-left: 130px;
+margin-left: 1px;
+margin-right: 1px;
 }
 
 
 .column img {
-    width:  450px;
-    height: 450px;
+    width:  365px;
+    height: 365px;
     object-fit:cover;
     display:inline-block;
   vertical-align: middle;
