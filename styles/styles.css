@@ -608,3 +608,14 @@ margin-right: 1px;
 .button_main:hover{
     background-color:  #ABEFD9;
   }
+
+
+.about_me p {
+  font-size: 16px;
+  font-weight: lighter;
+
+}
+
+.about_me .col{
+  margin-right: 50px;
+}
