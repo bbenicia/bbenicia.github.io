@@ -500,15 +500,26 @@ h9 {
   }
 }
 
-.about_me .col{
-  position: relative;
-  margin: auto;
+
+.about_me .col {
+  margin: 0  auto;
+  min-width: 374px;
+}
+
+.about_me .right{
   text-align: center;
-  min-width: 400px;
+  align-content: flex-start;
+  max-width: 700px;
+}
+
+.about_me .left{
+  text-align: center;
+  align-content: flex-end;
+  max-width: 700px;
 }
 
 .about_me .col img{
-  max-width: 400px;
+  max-width: 374px;
 }
 
 
@@ -634,7 +645,6 @@ margin-right: 1px;
 }
 
 .about_me .col{
-  margin-right: 50px;
 }
 
 
