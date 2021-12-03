@@ -25,7 +25,7 @@
         <a href="#contact"><li><img src="images/polygon2.png" alt="bloop"></li></a>
         <a href="aboutme.html"><li><img src="images/polygon3.png" alt="bloop"></li></a> -->
         <li><a href="index.html"><img  src="images/bb_logo.png" alt="bloop"></a></li>
-        <li><a href=""><span class="title">Work</span></a></li>
+        <li><a href=""><span class="title">For Fun</span></a></li>
         <li><a href="aboutme.html"><span class="title">About</span></a></li>
         <!--
         <span class="website"> <a href="http://sonia9uppal.github.io/toxictie/">website</a></span> -->
@@ -80,11 +80,8 @@
         <a href="#all" class="button_mainpg">Gallery</a>
 
       -->
-
-      <!--
         <a href="#prolink" class="button_main">Case Studies</a>
         <a href="#all" class="button_main">Gallery</a>
-      -->
 
 
   </div>
@@ -104,10 +101,8 @@
 
       <main class= "container">
 
-
-<!--
         <section id="prolink" class="recent_projects">
-           project 1 spotlight
+          <!-- project 1 spotlight ------------------>
             <div class="row">
               <div class="col">
                 <img class="theo" src="images/theohand.png" alt="theohandfn">
@@ -118,9 +113,9 @@
                 Theo Hand </p>
                 <p align="justify" class="pdescriptor">
                 Hyper Personal Prosthetic </p>
-<
+<!--
                 <h3 id="prolink">Theo Hand</h3>
-                <h4>Hyper Personal Prosthetic <br> </h4>
+                <h4>Hyper Personal Prosthetic <br> </h4> -->
                 <p align="justify" class="block">Theo Hand is a prosthetic device that utilizes soft robotics to empower our Project Partner Theo
                    to feel confident during his early child development while still allowing him to intuitively use a new device.
                    Theo is a 3 year old boy born with only one-third of his right forearm. Because of Theo’s young age and lack of experience with prostheses,
@@ -133,10 +128,10 @@
               </div>
             </div>
 
-        < project 2 spotlight
+        <!-- project 2 spotlight -->
             <div class="row">
               <div class="col reorder">
-                <img picture>
+                <!--img picture-->
                 <p  id="prodestroy" align="justify" class="ptitle">
                 Destroy the World in a Day Simulator </p>
                 <p align="justify" class="pdescriptor">
@@ -152,13 +147,13 @@
 
               </div>
               <div class="col">
-                <img video>
+                <!--img video-->
                 <img class="destroy" src="images/destroy.gif" alt="destroy">
                   </div>
             </div>
 
 
-            < project 3 spotlight >
+            <!-- project 3 spotlight -->
               <div class="row">
 
                 <div class="col">
@@ -166,8 +161,8 @@
                 </div>
 
                 <div class="col">
-                  <
-                  img video >
+                  <!--
+                  img video -->
                   <p  id="procuby" align="justify" class="ptitle">
                   Finding Cuby</p>
                   <p align="justify" class="pdescriptor">
@@ -177,7 +172,7 @@
                     no external moving parts,but instead functions by using a simple mode of locomotion
                     (pivoting), an inertial actuator (a flywheel and brake) and a bonding mechanism that
                     enables it to attach itself to other Cubys (permanent magnets).  </p>
-                  < <a href="https://drive.google.com/file/d/1Pe5Bxegp0qkL6NZKePmUXzSHwVFseoGP/view?usp=sharing">click to check out the project video</a> >
+                  <!-- <a href="https://drive.google.com/file/d/1Pe5Bxegp0qkL6NZKePmUXzSHwVFseoGP/view?usp=sharing">click to check out the project video</a> -->
                   <a href="projects3.html" class="button">Details</a>
 
                 </div>
@@ -187,10 +182,10 @@
               </div>
 
 
-              < project 4 spotlight >
+              <!-- project 4 spotlight -->
               <div class="row">
                 <div class="col reorder">
-                  <img picture>
+                  <!--img picture-->
                   <p  id="prodestroy" align="justify" class="ptitle">
                   Skeletoids</p>
                   <p align="justify" class="pdescriptor">
@@ -205,24 +200,24 @@
 
                 </div>
                 <div class="col">
-                  <img video>
+                  <!--img video-->
                   <img class="skeletoidsmain" src="images/skeletoids.GIF" alt="skeletoids">
                 </div>
               </div>
 
 
 
-              < project 6 spotlight >
+              <!-- project 6 spotlight -->
 
               <div class="row">
                 <div class="col">
-                <img video>
+                <!--img video-->
 
                 <img class="destroy" src="images/Slice.png" alt="toxic">
                 </div>
                 <div class="col">
 
-                  <img picture>
+                  <!--img picture-->
                   <p  id="protoxic" align="justify" class="ptitle">
                   Toxic Tie</p>
                   <p align="justify" class="pdescriptor">
@@ -241,10 +236,10 @@
                   </div>
               </div>
 
-            < project 5 spotlight >
+            <!-- project 5 spotlight -->
               <div class="row">
                 <div class="col reorder">
-                  <img picture>
+                  <!--img picture-->
                   <p  id="protoxic" align="justify" class="ptitle">
                   Donde Estoy</p>
                   <p align="justify" class="pdescriptor">
@@ -261,7 +256,7 @@
 
                 </div>
                 <div class="col">
-                  <img video>
+                  <!--img video-->
                   <img class="destroy" src="images/donde-estoy-clip.gif" alt="toxic">
 
                 </div>
@@ -270,7 +265,7 @@
 
 
 
-                  < project 5 spotlight >
+                  <!-- project 5 spotlight -->
                     <div class="row">
                       <div class="col">
 
@@ -278,8 +273,8 @@
                         </div>
 
                       <div class="col">
-                        <
-                        img video >
+                        <!--
+                        img video -->
                         <p  id="protoxic" align="justify" class="ptitle">
                         Plant-E</p>
                         <p align="justify" class="pdescriptor">
@@ -287,7 +282,7 @@
                         <p align="justify" class="block"> Plant-E is a lovable and commercial autonomous watering
                           and care plant system aimed for busy college students who are notorious for killing
                           their plants.This IoT device is connected to a mobile app and twitter to update the user.</p>
-                        < <a href="https://drive.google.com/file/d/1Pe5Bxegp0qkL6NZKePmUXzSHwVFseoGP/view?usp=sharing">click to check out the project video</a> >
+                        <!-- <a href="https://drive.google.com/file/d/1Pe5Bxegp0qkL6NZKePmUXzSHwVFseoGP/view?usp=sharing">click to check out the project video</a> -->
                         <a href="projects5.html" class="button">Details</a>
                       </div>
                     </div>
@@ -296,17 +291,15 @@
 
 
 
-<
-<img src="images/group.jpg" alt="theoproj1"> >
+<!--
+<img src="images/group.jpg" alt="theoproj1"> -->
 
 
         </section>
 
-      -->
-
 <!-- all projects !-->
         <section id="all" class="more_projects">
-          <span class="more"> Projects</span>
+          <span class="more"> Gallery </span>
         </section>
 
 
@@ -315,20 +308,9 @@
           <div class="row">
     <div class="column">
       <div class="content">
-       <a href="#prolink"><img class="theo" src="images/theo.png" alt="theohandfn"></a>
+       <a href="#prolink"><img class="theo" src="images/theo.png" alt="theo"></a>
        <div class="overlay">
- <div class="pictext">Theo Hand
-<p class="pictexttitle">Hyper personal prosthetic </p>
-<p class="pictextparagraph">Theo Hand is a prosthetic device designed to empower our Project Partner Theo
-   to feel confident during his early child development while allowing him to intuitively use a new device. </p>
-   <a href="projects_new_1.html" class="buttonlittle">Details</a>
-</div>
-
-
- <!--
- Hyper Personal Prosthetic
-
- -->
+ <div class="pictext">Theo Hand</div>
       </div>
     </div>
   </div>
@@ -339,13 +321,7 @@
       <div class="content">
         <a href="#prodestroy"> <img class="destroysolo" src="images/destroysolo.png" alt="destroysolo"></a>
         <div class="overlay">
-  <div class="pictext">Destroy the World in a Day
-    <p class="pictexttitle">  Interactive Education Arcade Game  </p>
-    <p class="pictextparagraph">Inspired by 80’s arcade games and choose your own adventure games,
-    this cheeky game is focused on educating individuals about sustainability
-    and socioeconomic entanglements through the lens of their daily decisions.  </p>
-      <a href="projects2.html" class="buttonlittle">Details</a>
-  </div>
+  <div class="pictext">Destroy the World in a Day</div>
       </div>
     </div>
   </div>
@@ -353,13 +329,11 @@
 
   <div class="column">
     <div class="content">
-    <img class="boxy" src="images/box.png" alt="boxy">
-    <div class="overlay">
-    <div class="pictext">For Fun</div>
+      <img class="BI" src="images/peanutedit.png" alt="BI">
+      <div class="overlay">
+  <div class="pictext">Peanut Robotics</div>
     </div>
-    </div>
-
-
+  </div>
   </div>
 
 
@@ -384,52 +358,30 @@
       <div class="content">
       <img class="skeletoids" src="images/skeletoids.GIF" alt="skeletoids">
       <div class="overlay">
-<div class="pictext">Skeletoids
-  <p class="pictexttitle">Interactive Macroscopic Educational Models  </p>
-  <p class="pictextparagraph">Skeletoids are macroscopic models that aim
-    to create an interactive educational experience that provide more opportunities
-    for interaction and exploration. </p>
-     <a href="projects_new_1.html" class="buttonlittle">Details</a>
-
-</div>
+<div class="pictext">Skeletoids</div>
       </div>
     </div>
   </div>
 
 
   <div class="column">
-
-
-      <div class="content">
-      <img class="walle" src="images/walleedit.png" alt="Plant-E">
-      <div class="overlay">
-    <div class="pictext">Plant-e
-      <p class="pictexttitle">Autonomous Plant Care System </p>
-      <p class="pictextparagraph">Plant-E is a lovable watering
-        and care plant system aimed for busy college students who are notorious for killing
-        their plants.</p>
-         <a href="projects_new_1.html" class="buttonlittle">Details</a>
+    <div class="content">
+          <img class="okgoogle" src="images/embox_1.jpg" alt="okgoogle">
+          <div class="overlay">
+  <div class="pictext">Illiciting Sophisitcation</div>
     </div>
-      </div>
-    </div>
-
-</div>
+  </div>
+  </div>
 
 
   <div class="column">
-<div class="content">
-<a href="#procuby"><img class="cuby" src="images/cubyface2face.jpg" alt="cuby"></a>
-<div class="overlay">
-<div class="pictext">Finding Cuby
-  <p class="pictexttitle">Autonmous Robot Cube </p>
-  <p class="pictextparagraph">Finding Cuby is a robot cube that visually detects another cube
-    based on color and autonomously flips towards it in order to attach.The cube has
-    no external moving parts. </p>
-     <a href="projects_new_1.html" class="buttonlittle">Details</a>
-</div>
-</div>
-</div>
-</div>
+    <div class="content">
+          <img class="okgoogle" src="images/donde_estoy.jpg" alt="okgoogle">
+          <div class="overlay">
+  <div class="pictext">Donde Estoy</div>
+    </div>
+  </div>
+  </div>
 
 </div>
 
@@ -466,50 +418,29 @@
 
   <div class="column">
     <div class="content">
-      <a href="#protoxic"><img class="toxic" src="images/toxic.JPG" alt="toxic"></a>
-      <div class="overlay">
-  <div class="pictext">Toxic Tie
-    <p class="pictexttitle">Speculative Wearable </p>
-    <p class="pictextparagraph">Intended
-      to make a statement on misogyny in the workplace,toxic tie recognizes when misogynistic words
-       are spoken and reacts by folding up and tapping the wearer on the face. </p>
-       <a href="projects_new_1.html" class="buttonlittle">Details</a>
-  </div>
+    <img class="bees" src="images/burtsbees.png" alt="bees">
+    <div class="overlay">
+<div class="pictext">Burts Bees</div>
     </div>
   </div>
-
 </div>
 
 
     <div class="column">
-
-        <div class="content">
-              <img class="okgoogle" src="images/donde_estoy.jpg" alt="okgoogle">
-              <div class="overlay">
-      <div class="pictext">Donde Estoy
-        <p class="pictexttitle">Multi Media Art Provocation </p>
-        <p class="pictextparagraph">
-          
-          Donde Esoty tells the story of border crossing by centering on language barriers and the struggle of sacrificing an old life in
-          order to have new opportuniites. </p>
-           <a href="projects_new_1.html" class="buttonlittle">Details</a>
-      </div>
-        </div>
-      </div>
-      </div>
-
-
-<div class="column">
-  <div class="content">
-        <img class="okgoogle" src="images/embox_1.jpg" alt="okgoogle">
+      <div class="content">
+        <a href="#protoxic"><img class="toxic" src="images/toxic.JPG" alt="toxic"></a>
         <div class="overlay">
-  <div class="pictext">Illiciting Sophisitcation
-    <p class="pictexttitle">Hyper personal prosthetic </p>
-    <p class="pictextparagraph">Theo Hand is a prosthetic device designed to empower our Project Partner Theo
-       to feel confident during his early child development while allowing him to intuitively use a new device. </p>
-       <a href="projects_new_1.html" class="buttonlittle">Details</a>
+<div class="pictext">Toxic Tie</div>
+      </div>
+    </div>
   </div>
-  </div>
+
+  <div class="column">
+    <div class="content">
+    <img class="walle" src="images/walleedit.png" alt="Plant-E">
+    <div class="overlay">
+  <div class="pictext">Plant-e</div>
+    </div>
   </div>
   </div>
 
@@ -532,49 +463,33 @@
 
 <div class="column">
   <div class="content">
-  <img class="bees" src="images/burtsbees.png" alt="bees">
+  <a href="#procuby"><img class="cuby" src="images/cubyface2face.jpg" alt="cuby"></a>
   <div class="overlay">
-  <div class="pictext">Burts Bees
-    <p class="pictexttitle">Hyper personal prosthetic </p>
-    <p class="pictextparagraph">Theo Hand is a prosthetic device designed to empower our Project Partner Theo
-       to feel confident during his early child development while allowing him to intuitively use a new device. </p>
-       <a href="projects_new_1.html" class="buttonlittle">Details</a>
-    </div>
+<div class="pictext">Finding Cuby</div>
   </div>
-  </div>
+</div>
 </div>
 
 
 
   <div class="column">
     <div class="content">
-      <img class="BI" src="images/peanutedit.png" alt="BI">
-      <div class="overlay">
-    <div class="pictext">Peanut Robotics
-      <p class="pictexttitle">Hyper personal prosthetic </p>
-      <p class="pictextparagraph">Theo Hand is a prosthetic device designed to empower our Project Partner Theo
-         to feel confident during his early child development while allowing him to intuitively use a new device. </p>
-         <a href="projects_new_1.html" class="buttonlittle">Details</a>
-    </div>
-    </div>
-    </div>
-</div>
-
-
-
-  <div class="column">
-    <div class="content">
-    <img class="coolfan" src="images/coolfanedit.png" alt="Cool fan">
+    <img class="boxy" src="images/box.png" alt="boxy">
     <div class="overlay">
-    <div class="pictext">Cool Fan
-      <p class="pictexttitle">Hyper personal prosthetic </p>
-      <p class="pictextparagraph">Theo Hand is a prosthetic device designed to empower our Project Partner Theo
-         to feel confident during his early child development while allowing him to intuitively use a new device. </p>
-         <a href="projects_new_1.html" class="buttonlittle">Details</a>
+<div class="pictext">Personal</div>
     </div>
-    </div>
-    </div>
+  </div>
+</div>
 
+
+
+  <div class="column">
+    <div class="content">
+    <img class="ineed" src="images/ineed.png" alt="ineed">
+    <div class="overlay">
+<div class="pictext">I Need</div>
+    </div>
+  </div>
 </div>
 
 
@@ -611,40 +526,34 @@
       <div class="content">
             <img class="okgoogle" src="images/okgoogle.jpg" alt="okgoogle">
             <div class="overlay">
-      <div class="pictext">Ok Google
-        <p class="pictexttitle">Hyper personal prosthetic </p>
-        <p class="pictextparagraph">Theo Hand is a prosthetic device designed to empower our Project Partner Theo
-           to feel confident during his early child development while allowing him to intuitively use a new device. </p>
-           <a href="projects_new_1.html" class="buttonlittle">Details</a>
+    <div class="pictext">Ok Google</div>
       </div>
-      </div>
-      </div>
+    </div>
   </div>
 
 
 
     <div class="column">
       <div class="content">
-      <img class="ineed" src="images/ineed.png" alt="ineed">
-      <div class="overlay">
-      <div class="pictext">I Need
-        <p class="pictexttitle">Hyper personal prosthetic </p>
-        <p class="pictextparagraph">Theo Hand is a prosthetic device designed to empower our Project Partner Theo
-           to feel confident during his early child development while allowing him to intuitively use a new device. </p>
-           <a href="projects_new_1.html" class="buttonlittle">Details</a>
+    <img class="coolfan" src="images/coolfanedit.png" alt="Cool fan">
+    <div class="overlay">
+  <div class="pictext">Cool Fan </div>
       </div>
-      </div>
-      </div>
+    </div>
   </div>
 
 
     <div class="column">
-
+      <div class="content">
+        <img class="coolfan" src="images/officekart.png" alt="Cool fan">
+        <div class="overlay">
+  <div class="pictext">Office Kart</div>
+      </div>
+    </div>
   </div>
 
 
 </div>
-
 
 
         </section>
