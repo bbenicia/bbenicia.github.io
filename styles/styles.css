@@ -501,8 +501,14 @@ h9 {
 }
 
 .about_me .col{
+  position: relative;
   margin: auto;
   text-align: center;
+  min-width: 400px;
+}
+
+.about_me .col img{
+  max-width: 400px;
 }
 
 
