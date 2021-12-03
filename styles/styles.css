@@ -67,7 +67,7 @@ h1{
 }
 
 .introduction{
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 15px;
   text-align: center;
   line-height: 1.5;
@@ -75,8 +75,24 @@ h1{
 }
 
 
+p.introparagraph {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%
+
+}
+
+
+
+
+
 .bryanna{
-  color:pink;
+  color:#FEC8F9;
   font-size: 30px;
 }
 
@@ -653,4 +669,67 @@ margin-right: 1px;
 
 .buttonlittle:hover{
   background-color:  #ABEFD9;
+}
+
+
+.pictextshrink{
+  text-align: center;
+  font-size: 23px;
+}
+
+
+p.projectpitch{
+  text-align: justify;
+}
+
+p.theoproblem{
+    text-align: justify;
+}
+
+
+.introduction1 {
+  position: relative;
+
+}
+
+.theointropic {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayintro {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.introduction1:hover .overlayintro {
+  opacity: 1;
+}
+
+.ideation .col{
+  min-width: 0px;
+}
+
+
+.ideation .col img {
+    width:  300px;
+    height: 300px;
+    object-fit:cover;
+    display:inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+
+.medesigner{
+  color:#2E29FF;
+  font-weight: normal;
 }
