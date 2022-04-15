@@ -54,6 +54,10 @@ nav{
 }
 
 
+.post img {
+  max-width: 70%;
+}
+
 
 h1{
   font-size: 36px;
